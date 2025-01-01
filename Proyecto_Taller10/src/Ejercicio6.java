@@ -8,12 +8,13 @@ import java.util.Scanner;
  * @author Jorge Guerrero
  */
 public class Ejercicio6 {
+
     public static void main(String[] args) {
         Scanner tcl = new Scanner(System.in);
         String[][] raya = new String[3][3];
         boolean zi = true, cau = true, si = true, ta;
         String respuesta;
-        int fila, columna ,bot, bot2;
+        int fila, columna, bot, bot2;
         while (zi) {
             System.out.print("Jugamos? : ");
             respuesta = tcl.next();
@@ -150,5 +151,39 @@ public class Ejercicio6 {
         }
     }
 }
-    
 
+/* 
+Jugamos? : no
+Jugamos? : si
+{  }{  }{  } 
+{  }{  }{  } 
+{  }{  }{  } 
+Ingresa cordenadas: 
+1 1
+{   }{   }{   } 
+{   }{ x }{   } 
+{   }{   }{   } 
+++++++++++++++++++++++++++++++
+{   }{   }{ O } 
+{   }{ x }{   } 
+{   }{   }{   } 
+Ingresa cordenadas: 
+1 0
+{   }{   }{ O } 
+{ x }{ x }{   } 
+{   }{   }{   } 
+++++++++++++++++++++++++++++++
+{   }{   }{ O } 
+{ x }{ x }{   } 
+{ O }{   }{   } 
+Ingresa cordenadas: 
+1 2
+{   }{   }{ O } 
+{ x }{ x }{ x } 
+{ O }{   }{   } 
+++++++++++++++++++++++++++++++
+{ O }{   }{ O } 
+{ x }{ x }{ x } 
+{ O }{   }{   } 
+Ganaste
+ */

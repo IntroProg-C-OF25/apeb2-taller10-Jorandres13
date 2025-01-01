@@ -4,7 +4,7 @@ import java.util.Scanner;
 /*
  * Crea un programa que gestione el inventario de una tienda, así como la emisión de facturas. Utiliza una matriz bidimensional para almacenar los productos disponibles en la tienda, con información como nombre, precio y cantidad. El programa debe permitir facturar un producto dado su código, y unidades deseadas. Adicional se debe agregar a la factura al 15% del IVA, y si la compra superar los $100, se debe aplicar un descuento.
  * Nota: Considere la alternativa de inexistencias en Stop, para el caso, muestre la alerta respectiva.
- * @author Andrés
+ * @author Jorge Guerrero
 
  */
 public class Ejercicio5 {
